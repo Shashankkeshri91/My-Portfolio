@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo"></img>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times"></i>
+        </ul>
+        <i class="fas fa-bars"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Shashank</span><br>Keshri from Patna</h1>
+      </div>
+    </div>
+  </div>
+  <!-- ----------ABOUT---------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a dedicated individual pursuing a Master's degree in Computer Science, with a passion for technology
+            and expanding my knowledge in the field. Alongside my studies, I am engaged in an online software
+            engineering bootcamp, enhancing my practical skills. I have expertise in Java, HTML, CSS, JavaScript,
+            Node.js, Bootstrap, and React.js. I enjoy playing cricket and stargazing, which provide a well-rounded
+            perspective and fuel my creativity. With enthusiasm for technology and a commitment to continuous learning,
+            I am confident in my ability to contribute to meaningful projects and embrace new opportunities for growth..
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>August 2022 - Current</span><br>Full Stack Web Developer Trainee at Newton School</li>
+              <li><span>November 2022- March 2023</span><br>Core Java Trainee at Aspro IT,Patna</li>
+              <!-- <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2017-2019</span><br>Internship at eKart ecommerce.</li>
+                        </ul> -->
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Pursuing</span><br>Master in Computer Science from MIA University </li>
+              <li><span>Aug 2022-Current</span><br>Full Stack Development Course from Newton School</li>
+              <li><span>2019-22</span><br>B.Com from Patliputra University </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------SERVICES---------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-brands fa-android"></i>
+          <h2>App Development</h2>
+          <p>Mobile app development is the act or process by which a mobile app is developed for one or more mobile
+            devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.</p>
+          <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>Web development is the work involved in developing a website for the Internet or an intranet. Web
+            development can range from developing a simple single static page of plain text to complex web applications,
+            electronic businesses, and social network services.</p>
+          <a href="https://en.wikipedia.org/wiki/Web_development">Learn more</a>
+
+        </div>
+        <div>
+
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>User experience design is the process of defining the experience a user would go through when interacting
+            with a company, its services, and its products. Design decisions in UX design are often driven by research,
+            data analysis, and test results rather than aesthetic preferences and opinions.</p>
+          <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------PORTFOLIO--------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Works</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h2>EmojiPedia</h2>
+            <p>1.The React code creates an emoji dictionary app displaying emoji entries and their meanings.
+              <br>
+              2.It uses the emojipedia.js data file to populate the list of emoji entries dynamically.
+              <br>
+              3.CSS styling is applied to format the emoji dictionary's appearance.
+            </p>
+            <a href="https://shashankkeshri91.github.io/csb-7y62hp/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h2>Stock Market Dashboard</h2>
+            <p>1.The code provides a structure for a stock market dashboard web page with an embedded favicon.
+              <br>
+              2.The CSS code handles the styling, including layout and formatting, for the stock market dashboard web
+              page.
+              <br>
+              3.The JavaScript code adds functionality, such as fetching stock data, updating the dashboard dynamically,
+              and supporting wishlist management, to create a functional stock market dashboard.
+            </p>
+            <a href="https://shashankkeshri91.github.io/Stock-Market-Dashboard---Javascript-Project---layl85sglvbl/"><i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h2>Tesla Clone</h2>
+            <p>1.The code features a "Model" component displaying Tesla Model 3 details and options.
+              <br>
+              2.A responsive "Navbar" provides links to car models and services, with a collapsible menu.
+              <br>
+              3.Utilized Tailwind CSS for styling, creating a visually appealing and mobile-friendly design.
+            </p>
+            <a href="https://statuesque-mandazi-827a62.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://64b281ac1f52c17ce5151c0f--starlit-starburst-c370a7.netlify.app/#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ----------CONTACT---------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-paper-plane"></i>shashankkeshri91109@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i>+91-9110940489</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shashank-keshri-981993217/"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <a href="images/Resume-Shashank Keshri (20).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn3">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright @ web developer keshri. Made with <i class="fas fa-heart"></i> by Dev Shashank</p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
